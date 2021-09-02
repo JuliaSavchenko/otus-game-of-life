@@ -1,0 +1,43 @@
+{
+  "name": "otus-homework-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaSavchenko/otus-homework-game.git"
+  },
+  "author": "Julia Savchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaSavchenko/otus-homework-game/issues"
+  },
+  "homepage": "https://github.com/JuliaSavchenko/otus-homework-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/builder-webpack5": "^6.3.7",
+    "@storybook/manager-webpack5": "^6.3.7",
+    "@storybook/react": "^6.3.7",
+    "@types/node": "^16.7.6",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.0.3",
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.9.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
