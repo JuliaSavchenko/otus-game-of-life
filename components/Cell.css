@@ -1,0 +1,15 @@
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+.cell-alive {
+    background-color: thistle;
+}
+.cell-dead {
+    background-color: black;
+}
+
+.cell-old {
+    background-color: blueviolet;
+}
