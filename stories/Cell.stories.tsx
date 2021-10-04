@@ -1,7 +1,7 @@
-import  Cell  from '../components/Cell';
+import  Cell  from '../src/components/Cell';
 
 import { ComponentStory } from '@storybook/react';
-import { CellType } from '../components/Field';
+import { CellType } from '../src/components/Field';
 
 export default {
     title: 'Cell',

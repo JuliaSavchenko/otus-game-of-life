@@ -1,6 +1,7 @@
 import  { useEffect, useState } from "react";
 import Cell from "./Cell";
 import "./Field.css";
+import React from "react";
 
 type FieldSize = {
     width: number,
@@ -45,7 +46,7 @@ function Field(props: FieldSize) {
                 return (
                     <div className="field-row" key={'row-' + rowIndex}>
                         { row.map((cell, cellIndex) => {
-                            return <Cell type={cell} 
+                            return <Cell id='cell' type={cell} 
                             onSelect={() => updateCellState(rowIndex, cellIndex, CellType.ALIVE)} 
                             key={'cell-' + cellIndex}></Cell>
                         })}

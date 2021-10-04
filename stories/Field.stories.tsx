@@ -1,4 +1,4 @@
-import Field from '../components/Field';
+import Field from '../src/components/Field';
 
 import { ComponentStory } from '@storybook/react';
 

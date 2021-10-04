@@ -4,7 +4,7 @@
     border: 1px solid white;
 }
 .cell-alive {
-    background-color: thistle;
+    background-color: #d8bfd8;
 }
 .cell-dead {
     background-color: black;
